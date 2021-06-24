@@ -1,4 +1,4 @@
 module.exports = {
-  MOGOURI: process.env.MOGOURI,
-  jwsecret: process.env.jwsecret,
+  Mongouri: process.env.MOGOURI,
+  jwsecret: process.env.JWT_SEC,
 };
