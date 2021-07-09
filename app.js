@@ -31,7 +31,7 @@ app.use(express.json());
 
 // app.use(cors());
 // this is used when we want to send a request from 1 domain to other but the port is different
-//for eg react app on local 3000 and node on 5000
+//for eg react app on local 3000 and node on 5000 or just use proxy
 
 //routes
 app.use(require("./routes/user"));
